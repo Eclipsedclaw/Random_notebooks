@@ -1,0 +1,23 @@
+{
+    "HY2020":{
+        "sigma_level_energy_margin_for_checkScatteringAngle": 10.0,
+        "process_mode": 0,
+        "assume_initial_gammaray_energy" : false,
+        "known_initial_gammaray_energy": 1000.0,
+        "use_averaged_escaped_energy": true,
+        "detector_length_scale": 10.0,
+        "energy_resolution":{
+            "par0": 5.0,
+            "par1": 0.5,
+            "par2": 0.0
+        },
+        "consider_position_resolution": true,
+        "position_resolution":{
+            "x": 0.07217,
+            "y": 0.07217,
+            "z": 0.1
+        },
+        "escape_weight": 1.0,
+        "cross_section_filename": "database/argon/crosssection_argron.root"
+    }
+}

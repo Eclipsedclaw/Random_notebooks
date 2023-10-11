@@ -1,0 +1,79 @@
+{
+    "Nsim": 1000000,
+    "Asim": 38013.2711084365,
+    "num_hits": {
+        "min": 3,
+        "max": 6
+    },
+    "energy_reconstructed": {
+        "min": 10.0,
+        "max": 15000.0
+    },
+    "total_energy_deposit": {
+        "min": 10.0,
+        "max": 15000.0
+    },
+    "scattering_angle": {
+        "min": 10.0,
+        "max": 40.0
+    },
+    "hit1_energy": {
+        "min": 25.0,
+        "max": 15000.0
+    },
+    "hit2_energy": {
+        "min": 25.0,
+        "max": 15000.0
+    },
+    "hit1_pos": {
+        "x": {
+            "min": -70,
+            "max": 70
+        },
+        "y": {
+            "min": -70,
+            "max": 70
+        },
+        "z": {
+            "min": -10,
+            "max": 10
+        }
+    },
+    "hit2_pos": {
+        "x": {
+            "min": -70,
+            "max": 70
+        },
+        "y": {
+            "min": -70,
+            "max": 70
+        },
+        "z": {
+            "min": -10,
+            "max": 10
+        }
+    },
+    "first_interaction_distance": {
+        "min": 2.0,
+        "max": 300
+    },
+    "reconstruction_fraction": {
+        "min": 0.9,
+        "max": 1.0
+    },
+    "loglikelihood": {
+        "min": -100.0,
+        "max": 10.0
+    },
+    "ARM": {
+        "min": -180.0,
+        "max": 180.0
+    },
+    "escape_flag": -1,
+    "segment_flag": 2,
+    "ini_energy": 16000.0,
+    "Ndet": 392,
+    "Aeff": 14.901202274507106,
+    "ARM_FWHM": 0.7777777777777697,
+    "energy_FWHM": 5.0
+}
